@@ -1,4 +1,5 @@
 # react-example
+# Added a test commit
 
 React example app that demonstrates using [React] with [webpack], and [babeljs], as well as project structure.
 
