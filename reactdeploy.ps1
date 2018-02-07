@@ -6,7 +6,7 @@ $VerbosePreference = 'Continue'
 $Builddir= "%teamcity.build.checkoutDir%\build"
 $deploypath = "C:\inetpub\wwwroot\reactapp\"
 $GetFile = get-childitem -file -recurse -name $Builddir
-$Devserver = "dev2-app.united.com"
+$Devserver = "dev2-app.test.com"
 
 $Filenames = foreach ($FileName in $GetFile)
 {
